@@ -1,3 +1,5 @@
+package Module_2;
+
 public class Str1 {
     public static void main(String[] args) {
         String str = "I like walking. Run and travelling";
