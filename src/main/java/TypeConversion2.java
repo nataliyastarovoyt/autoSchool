@@ -1,8 +1,12 @@
+import java.util.Scanner;
+
 public class TypeConversion2 {
-    public static void main (String [] args) {
-        int a = 20;
-        int b = 8;
-        int n = a + b;
-        System.out.println(n);
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        System.out.println((a / 10) + (a % 10));
+        sc.close();
     }
 }
+
