@@ -1,7 +1,18 @@
 package Module_2;
 
+import java.util.Scanner;
+
 public class Str1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
+        task1();
+        task2();
+
+    }
+
+    public static void task1() {
+        System.out.println("Task 1 is running");
+        System.out.println("Output first, last and middle (if any) characters");
+        System.out.println("Displaying the number of spaces");
         String str = "I like walking. Run and travelling";
         int len = str.length();
         int middle = len / 2;
@@ -19,4 +30,22 @@ public class Str1 {
         System.out.println(befor_point);
     }
 
+    public static void task2() {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Task 2 is running");
+        String oldString = "Nataliya from Ukraine";
+        String newString = oldString.replace("Nataliya", "Lena");
+        System.out.print("Input your name and where are you from : ");
+        String num = in.nextLine();
+        System.out.printf(newString);
+        in.close();
+
+    }
 }
+
+
+
+
+
+
+
