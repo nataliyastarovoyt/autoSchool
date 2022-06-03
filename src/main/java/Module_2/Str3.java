@@ -6,6 +6,7 @@ public class Str3 {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        System.out.println("Input two different words:");
         String str = in.nextLine();
 
         String[] strArray = str.split(" ");
